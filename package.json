@@ -4,7 +4,9 @@
   "description": "",
   "scripts": {
     "newDir": "mkdir dir1 dir2 dir3",
-    "commit": "git add .; git commit -m 'update'"
+    "precommit": "echo preCommit",
+    "commit": "git add .; git commit -m 'update'",
+    "start": "echo START"
   },
   "repository": {
     "type": "git",
