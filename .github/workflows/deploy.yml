@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: ['main', 'dev', 'awd']
+    branches: ['08-1-webpack']
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
