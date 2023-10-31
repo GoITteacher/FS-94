@@ -2,7 +2,10 @@
   "name": "fs",
   "version": "1.0.0",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "newDir": "mkdir dir1 dir2 dir3",
+    "commit": "git add .; git commit -m 'update'"
+  },
   "repository": {
     "type": "git",
     "url": "https:sef"
