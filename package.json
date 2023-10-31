@@ -1,20 +1,16 @@
 {
-  "name": "js-example",
+  "name": "fs",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /js-example/",
-    "push": "git add . && git commit -m 'update'"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GoITteacher/js-example.git"
+    "url": "https:sef"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GoITteacher/js-example/issues"
-  },
-  "homepage": "https://github.com/GoITteacher/js-example#readme"
+  "dependencies": {
+    "simplelightbox": "^2.14.2"
+  }
 }
