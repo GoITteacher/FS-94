@@ -6,7 +6,11 @@
     "newDir": "mkdir dir1 dir2 dir3",
     "precommit": "echo preCommit",
     "commit": "git add .; git commit -m 'update'",
-    "start": "echo START"
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html",
+    "prepush": "echo prepush",
+    "push": "echo push",
+    "postpush": "echo postpush"
   },
   "repository": {
     "type": "git",
@@ -16,6 +20,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "basiclightbox": "^5.0.4",
+    "lodash": "^4.17.21",
     "simplelightbox": "^2.14.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.1"
   }
 }
